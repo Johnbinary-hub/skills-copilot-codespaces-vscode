@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOHNBINARY SURVEY FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<form action="" method="post" id="survey-form">
+    <h1 id="title">JOHNBINARY SURVEY FORM</h1>
+    <p id="description">Thank you for your interest </p>
+<label id="name-label" for="name">Name<br><input id="name" type="text" required placeholder="Enter your first name"></label>
+<br><label id="email-label" for="name"> <br>Email <br><input id="email" type="email" required title="please enter a valid email address" placeholder="Enter your Email address"></label>
+<br><br><label id="number-label" for="name">Age <br><input id="number" type="number" required  placeholder="Age" min="2" max="120"></label>
+<br><br><label for="role">What's your role
+    <select name="role" id="dropdown">
+        <option value="">Select one</option>
+        <option value="1">Developer</option>
+        <option value="2">Gamer</option>
+        <option value="3">Programmer</option>
+    </select>
+</label>    
+<br> <br><legend>WOULD YOU RECOMMEND US? </legend>
+<br> <name>
+    <input type="radio" value="1" name="1" >SURE</name>
+    <input type="radio" value="2" name="2" >NOT SURE</name>
+
+<br><h1>What will you like to see improve?</h1>
+<br><label for="trading experience"> <input type="checkbox" value="1">Trading experience</label>
+<br><label for="Trading experience"><input type="checkbox" value="2">Trading illustrator</label>
+<br><label for="trading experience"><input type="checkbox" value="3">Trading tutor </label>
+<br><label for="trading experience"><input type="checkbox" value="4">Trading advice</label>
+<br><p>Any comment or suggestion?</p>
+<label for="comment"><textarea name="comment" id="comment"   rows="3" cols="30"placeholder="ANY COMMENT"></textarea></label>
+<br><input id="submit" type="submit" value="submit">
+</form>
+
+</body>
+</html>
