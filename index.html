@@ -3,39 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JOHNBINARY SURVEY FORM</title>
+    <title>Selling Platform</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-<form action="" method="post" id="survey-form">
-    <h1 id="title">JOHNBINARY SURVEY FORM</h1>
-    <p id="description">Thank you for your interest </p>
-<label id="name-label" for="name">Name<br><input id="name" type="text" required placeholder="Enter your first name"></label>
-<br><label id="email-label" for="name"> <br>Email <br><input id="email" type="email" required title="please enter a valid email address" placeholder="Enter your Email address"></label>
-<br><br><label id="number-label" for="name">Age <br><input id="number" type="number" required  placeholder="Age" min="2" max="120"></label>
-<br><br><label for="role">What's your role
-    <select name="role" id="dropdown">
-        <option value="">Select one</option>
-        <option value="1">Developer</option>
-        <option value="2">Gamer</option>
-        <option value="3">Programmer</option>
-    </select>
-</label>    
-<br> <br><legend>WOULD YOU RECOMMEND US? </legend>
-<br> <name>
-    <input type="radio" value="1" name="1" >SURE</name>
-    <input type="radio" value="2" name="2" >NOT SURE</name>
+    <header>
+        <div class="logo">
+            <h1>ShopNow</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<br><h1>What will you like to see improve?</h1>
-<br><label for="trading experience"> <input type="checkbox" value="1">Trading experience</label>
-<br><label for="Trading experience"><input type="checkbox" value="2">Trading illustrator</label>
-<br><label for="trading experience"><input type="checkbox" value="3">Trading tutor </label>
-<br><label for="trading experience"><input type="checkbox" value="4">Trading advice</label>
-<br><p>Any comment or suggestion?</p>
-<label for="comment"><textarea name="comment" id="comment"   rows="3" cols="30"placeholder="ANY COMMENT"></textarea></label>
-<br><input id="submit" type="submit" value="submit">
-</form>
+    <main>
+        <h2>Products for Sale</h2>
+        <div class="product-list">
+            <!-- Example products --> 
+            <div class="product-item" data-id="1">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>$20.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-item" data-id="2">
+                <img src="/picture 2.jpg" alt="">
+                <h3>Product 2</h3>
+                <p>$30.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-item" data-id="3">
+                <img src="/picture 3.jpg" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>$40.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </main>
 
+    <footer>
+        <p>&copy; 2025 ShopNow. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
