@@ -1,9 +1,9 @@
 body{
     margin: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/OIP.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(6, 6, 192, 0.945)), url(/OIP.jpgx);
 background-repeat: no-repeat;
 background-size: cover;
-width: 100%;
+width: 400px;
 height: 100vh;
 }
 .shape{
@@ -41,7 +41,8 @@ h1{
     color: white;
 }
 p{
-    padding-left: 180px;
+    padding-left: 200px;
     color: aqua;
     margin-left: 350px;
+    
 }
