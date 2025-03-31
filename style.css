@@ -1,31 +1,137 @@
-body {
-    font-family: sans-serif;
+div{
+background-color: blue;
+width: 100%;
+height: 450px;
+background-size: contain;
+}
+body{
+    height: auto;
+    width: 100%;
     margin: 0;
-    padding: 0;
-}
 
-nav {
-    background-color: #4CAF50;
-    padding: 10px;
 }
-
-nav a {
+a{
+    
+    text-align: end;
     color: white;
     text-decoration: none;
-    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 6px;
+    margin-left: 10px;
+    color: whitesmoke;
 }
-
-header {
-    text-align: center;
-    padding: 20px;
-}
-
-main {
-    padding: 20px;
-}
-
-footer {
-    background-color: #f0f0f0;
+.name{
+    font-weight: bolder;
     text-align: center;
     padding: 10px;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.workspace{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(77, 165, 42);
+    border: 0;
+    width: 200px;
+height: 50px;
+margin-left: 70px;
+cursor: pointer;
+}
+p{
+    color: white;
+   text-align: center;
+}
+header{
+    color: white;
+   
+}
+.button1{
+    color: blue;
+    background-color: rgba(0, 255, 55, 0.89);
+    border: 0;
+    width: 100px;
+    height: 40px;
+   
+    cursor: pointer;
+}
+.button2{
+    color: blue;
+background-color: rgba(0, 255, 55, 0.89);
+border: 0;
+width: 100px;
+height: 40px;
+margin-left: 50px;
+cursor: pointer;
+}
+
+.web{
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.p2{
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button4{
+    background-color: greenyellow;
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: blue;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 100px;
+}
+h3{
+   
+    color: black;
+    margin-left: 1000px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blueviolet;
+    font-size: 30px;
+}
+body{
+    background-color: rgba(245, 222, 179, 0.507);
+
+
+}
+.content{
+    margin-left: 1000px;
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.button5{
+    margin-left: 1000px;
+    background-color: greenyellow;
+    border: 0;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+.npicture1{
+    width: 300px;
+    height: 200px;
+    border: 2rem 5 solid white;
+    margin-left: 350px;
+    
+    
+}
+.COPY{
+    text-align: center;
+    color: black;
+    
+    
+
 }
