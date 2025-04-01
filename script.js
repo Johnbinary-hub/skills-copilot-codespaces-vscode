@@ -1,26 +1,20 @@
-let cart = [];
-
-const updateCartCount = () => {
-    document.getElementById('cart-count').textContent = cart.length;
-};
-
-const addToCart = (productId) => {
-    // Simple logic to handle adding products to the cart
-    const product = document.querySelector(`.product-item[data-id="${productId}"]`);
-    const productName = product.querySelector('h3').textContent;
-    const productPrice = product.querySelector('p').textContent;
-
-    cart.push({ id: productId, name: productName, price: productPrice });
-    updateCartCount();
-};
-
-const addButtons = document.querySelectorAll('.add-to-cart');
-
-addButtons.forEach(button => {
-    button.addEventListener('click', (e) => {
-        const productId = e.target.closest('.product-item').dataset.id;
-        addToCart(productId);
-    });
+// Subscribe Button Alert
+document.getElementById('subscribeBtn').addEventListener('click', function() {
+    alert('Thank you for subscribing!');
 });
 
-window.onload = updateCartCount;
+// Scroll to Top Button
+let scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+window.onscroll = function() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        scrollToTopBtn.style.display = 'block';
+    } else {
+        scrollToTopBtn.style.display = 'none';
+    }
+};
+
+scrollToTopBtn.addEventListener('click', function() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+});
