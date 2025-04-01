@@ -129,7 +129,7 @@ footer .contact input, footer .contact button {
 }
 
 .topbutton {
-    position: fixed;
+  position: relative;
     bottom: 20px;
     right: 20px;
     text-align: center;
@@ -141,6 +141,7 @@ footer .contact input, footer .contact button {
     width: 150px;
     height: 30px;
     display: none;
+    left: 120px;
     cursor: pointer;
 }
 
