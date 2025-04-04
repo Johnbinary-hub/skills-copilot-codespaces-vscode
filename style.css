@@ -190,3 +190,26 @@ footer .contact input, footer .contact button {
         margin: 5px 0;
     }
 }
+.comments-section{
+
+height: 20px;
+justify-content: center;
+align-items: center;
+display: flex;
+color: green;
+}
+
+.logout{
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    height: 20px;
+    text-align: center;
+}
+.welcome{
+    text-align: center;
+    color: #4CAF50;
+}
+.span{
+    text-align: center;
+}
