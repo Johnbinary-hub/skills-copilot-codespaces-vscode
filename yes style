@@ -1,0 +1,418 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .logo {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333;
+}
+
+header nav input {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(87, 53, 53);
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.featured-posts {
+    padding: 20px;
+}
+
+.featured-posts h2 {
+    text-align: center;
+}
+
+.featured-posts .posts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.featured-posts .post {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.featured-posts .post img {
+    width: 100%;
+    height: auto;
+}
+
+.categories {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.categories .category-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.categories .category {
+    text-align: center;
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .contact input, footer .contact button {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.topbutton {
+  position: relative;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    width: 150px;
+    height: 30px;
+    display: none;
+    left: 120px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        flex-direction: column;
+    }
+
+    .hero .hero-content {
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        font-size: 0.9em;
+    }
+
+    .featured-posts .posts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .categories .category-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .featured-posts .post, .categories .category {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero .hero-content {
+        top: 30%;
+        font-size: 0.8em;
+        padding: 10px;
+    }
+
+    header nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+
+
+
+
+
+
+*{
+    
+    margin: 0;
+    
+    padding: 0;
+}
+
+body {
+   
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .logo {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333;
+}
+
+header nav input {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(87, 53, 53);
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.featured-posts {
+    padding: 20px;
+}
+
+.featured-posts h2 {
+    text-align: center;
+}
+
+.featured-posts .posts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.featured-posts .post {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.featured-posts .post img {
+    width: 100%;
+    height: auto;
+}
+
+.categories {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.categories .category-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.categories .category {
+    text-align: center;
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .contact input, footer .contact button {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.topbutton {
+  position: relative;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    width: 150px;
+    height: 30px;
+    display: none;
+    left: 120px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        flex-direction: column;
+    }
+
+    .hero .hero-content {
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        font-size: 0.9em;
+    }
+
+    .featured-posts .posts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .categories .category-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .featured-posts .post, .categories .category {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero .hero-content {
+        top: 30%;
+        font-size: 0.8em;
+        padding: 10px;
+    }
+
+    header nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+.comments-section{
+
+height: 20px;
+justify-content: center;
+align-items: center;
+display: flex;
+color: green;
+}
+
+.logout{
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    height: 20px;
+    text-align: center;
+}
+.welcome{
+    text-align: center;
+    color: #4CAF50;
+}
+.span{
+    text-align: center;
+}

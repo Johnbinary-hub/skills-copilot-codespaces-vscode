@@ -9,14 +9,17 @@
 <body>
     
     <div class="container">
-        <h2>Register</h2>
-        <form id="registrationForm" method="post">
-            <input type="text" id="username" placeholder="Enter Username" required>
-            <input type="email" id="email" placeholder="Enter Email" required>
-            <input type="password" id="password" placeholder="Enter Password" required>
-            <button type="submit">Register</button>
+        <h2 class="register">REGISTER</h2>
+        <form id="registrationForm" method="post" action="register.php">
+            <input type="text" id="username" placeholder="Enter Username" class="fname" name="fname" required>
+            <input type="email" id="email" placeholder="Enter Email" name="email" class="email" required>
+
+
+            <input type="password" class="pass" id="password" placeholder="Enter Password"  name="pass" required>
+            <button type="submit" name="signup">Register</button>
         </form>
         <a href="index.html" class="back"> Back to home</a>
+     <br>   <a href="signin.html" class="sign">Already have an acct?, sign in</a>
     </div>
 
     <script src="script1.js"></script>
